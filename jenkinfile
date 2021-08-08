@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('DBNAME') {
+            steps {
+               bat 'echo DB name is DBNAME'
+            }
+        }
+    }
+}
